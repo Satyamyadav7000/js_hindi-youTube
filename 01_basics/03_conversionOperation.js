@@ -17,3 +17,16 @@ console.log(booleanIsLoggedIn)
 // 1=> true ; 0=> false;
 // "" => false
 // "satyam" => true
+let str1="sat"
+let str2="yam"
+let str3=str1+str2;
+//console.log(str3) //satyam
+//console.log(2+2)
+//console.log(2-2)
+//console.log(2*2)
+//console.log(2**2)
+
+console.log("1" + 2)//12
+console.log(1 + "2")//12
+console.log("1" +2+2)//122
+console.log(1 + 2+"2")//32
