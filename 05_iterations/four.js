@@ -5,14 +5,14 @@ const myObj = {
 }
 
 for (const key in myObj){
-    // console.log(`${key} shortcut is for ${myObj[key]}`);
+    // console.log(`${key} shortcut is for ${myObj[key]}`); //no error
    
 }
 
 const programming = ["js","rb","py"]
 
 for (const key in programming) {
-    console.log(programming[key]);
+    // console.log(programming[key]);
     
 
     
@@ -25,5 +25,5 @@ for (const key in programming) {
 // map.set('IN', "India")
 //  for (const key in map){
 //     console.log(key);
-//  }
+//  } // no output will come 
 
